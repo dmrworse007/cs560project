@@ -71,16 +71,6 @@ All restructuring, integration, documentation, and academic preparation have bee
 CS560 Project – IIT Guwahati  
 GitHub: https://github.com/dmrworse007
 
----
-
-## 📝 Add Footer (Optional)
-Add this code before </body> in any HTML file:
-
-<footer style="width:100%; text-align:center; margin-top:30px; font-size:14px; color:#888;">
-    Project adapted & implemented by <b>Dibya Prartim Kashyap</b> — CS560, IIT Guwahati
-</footer>
-
----
 
 
 
