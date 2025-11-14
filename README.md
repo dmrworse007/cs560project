@@ -31,40 +31,83 @@ It is intended for demos, teaching, and experimentation with XR (Extended Realit
 
 ---
 
-## 📦 How to Run the Project
+## 📦 How to Run This Project
 
-### 1. Open normally in browser  
-Open:
-index.html
-
-This loads the main Solar System interface.
+The project runs entirely in a web browser. No installation or command-line tools are required.
 
 ---
 
-### 2. Run AR Mode  
-Open:
-solar.html
+### ▶️ 1. Run the Main Solar System (Normal Mode)
 
-Or any file inside the "ar" folder, using a device with a camera.
+1. Download or clone the project:
+   git clone https://github.com/dmrworse007/cs560project
 
----
+2. Open the project folder.
 
-### 3. Run VR Mode  
-Open any file inside the "vr" folder.  
-Compatible with:
-- Laptop/desktop browsers  
-- Google Cardboard style VR headset on mobile  
+3. Double-click on:
+   index.html
+
+This opens the full Solar System model with orbits and animations.
 
 ---
 
-## 📄 Attribution (Required by License)
-This project includes adaptations of an open-source Solar System visualization published under the 
-Creative Commons BY-NC-ND 4.0 license.  
-All restructuring, integration, documentation, and academic preparation have been done by **Dibya**.
+### 🟩 2. Run Augmented Reality (AR) Mode
 
-(Attribution is legally required and does NOT affect authorship of this repo.)
+1. Open:
+   solar.html
+
+2. Use a device with a **camera** (laptop webcam or smartphone).
+
+3. Point the camera at a **HIRO marker** (standard AR marker).
+
+4. The 3D planets will appear on top of the marker using AR.
+
+If the AR marker is not available, you can print one online by searching “HIRO marker PNG”.
 
 ---
+
+### 🔵 3. Run Virtual Reality (VR) Mode
+
+1. Open any HTML file inside the:
+   vr/  
+   folder.
+
+2. You can use:
+   - Desktop browser (mouse controls)
+   - Mobile phone inserted into a VR headset (Google Cardboard style)
+
+3. A-Frame automatically activates VR mode when supported.
+
+---
+
+### 📱 4. Run on Mobile (Android / iPhone)
+
+1. Upload the project to GitHub Pages (instructions below).
+2. Open the link on your phone.
+3. AR mode will ask for camera permission — allow it.
+
+---
+
+### 🌐 5. Running Through GitHub Pages (Recommended)
+
+After enabling GitHub Pages, your project will be available at:
+
+https://dmrworse007.github.io/cs560project/
+
+Then:
+- Open `/index.html` → Normal mode  
+- Open `/solar.html` → AR mode  
+- Open `/vr/*.html` → VR mode
+
+---
+
+### 🧪 6. Testing Tips
+
+- Use Chrome or Edge (best compatibility).
+- For AR: ensure lighting is good and camera can see the marker.
+- For VR: use fullscreen + VR headset for best results.
+
+
 
 ## 👨‍💻 Author
 **Dibya Pratim Kashyap**  
